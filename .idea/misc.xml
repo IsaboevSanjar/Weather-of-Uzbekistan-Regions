@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/drawable-v24/gradient_night_back.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/drawable-v24/gradient_rain_back.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1085" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/drawable/gradient_back.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/drawable/gradient_normal_back.xml" value="0.1175" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/drawable/ic_humidity.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/drawable/ic_info_weater.xml" value="0.1175" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/drawable/ic_instagram_ic.xml" value="0.1565" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1175" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/drawable/ic_sunset.xml" value="0.1175" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/drawable/ic_wind.xml" value="0.1175" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/drawable/sheet_back.xml" value="0.1175" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/layout/bottom_sheet_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/layout/cities_bottom_sheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/layout/image_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/layout/item_city.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1565" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/WeatherNews/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1565" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
