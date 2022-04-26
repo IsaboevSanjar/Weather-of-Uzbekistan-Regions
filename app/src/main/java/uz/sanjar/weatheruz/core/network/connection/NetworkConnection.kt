@@ -1,4 +1,4 @@
-package uz.sanjar.weather.core.network.connection
+package uz.sanjar.weatheruz.core.network.connection
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

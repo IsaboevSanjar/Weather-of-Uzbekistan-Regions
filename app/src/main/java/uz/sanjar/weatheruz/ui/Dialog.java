@@ -1,11 +1,11 @@
-package uz.sanjar.weather.ui;
+package uz.sanjar.weatheruz.ui;
 
 import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 
-import uz.sanjar.weather.R;
+import uz.sanjar.weatheruz.R;
 
 public class Dialog extends android.app.Dialog {
     public Dialog(@NonNull Context context) {

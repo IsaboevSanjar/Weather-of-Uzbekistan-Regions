@@ -1,4 +1,4 @@
-package uz.sanjar.weather.ui
+package uz.sanjar.weatheruz.ui
 
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -9,13 +9,13 @@ import androidx.appcompat.app.AppCompatActivity
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import uz.sanjar.weather.R
-import uz.sanjar.weather.core.cache.CityCache
-import uz.sanjar.weather.core.cons.CONSTANTS
-import uz.sanjar.weather.core.network.connection.NetworkConnection
-import uz.sanjar.weather.core.network.models.CurrentWeather
-import uz.sanjar.weather.core.network.service.WeatherService
-import uz.sanjar.weather.databinding.ActivityMainBinding
+import uz.sanjar.weatheruz.R
+import uz.sanjar.weatheruz.core.cache.CityCache
+import uz.sanjar.weatheruz.core.cons.CONSTANTS
+import uz.sanjar.weatheruz.core.network.connection.NetworkConnection
+import uz.sanjar.weatheruz.core.network.models.CurrentWeather
+import uz.sanjar.weatheruz.core.network.service.WeatherService
+import uz.sanjar.weatheruz.databinding.ActivityMainBinding
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -95,8 +95,11 @@ class MainActivity : AppCompatActivity() {
             citiesSheet.show(supportFragmentManager, "CitiesSheetDialog")
         })
         binding.swipeRefresh.setOnRefreshListener {
-            Toast.makeText(this, "Refresh", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Updated", Toast.LENGTH_SHORT).show()
             loadingData()
+            if (binding.errorText.visibility == View.VISIBLE) {
+                binding.errorText.visibility = View.GONE
+            }
             binding.swipeRefresh.isRefreshing = false
         }
         timeCounter()
@@ -130,6 +133,8 @@ class MainActivity : AppCompatActivity() {
                 response: Response<CurrentWeather>
             ) {
                 if (response.isSuccessful) {
+                    binding.errorText.visibility = View.GONE
+
                     val data = response.body()
 
                     if (data != null) {
@@ -169,11 +174,9 @@ class MainActivity : AppCompatActivity() {
 
             override fun onFailure(call: Call<CurrentWeather>, t: Throwable) {
                 Log.d(TAG, "onFailure: ${t}")
-                binding.errorText.visibility = View.VISIBLE
                 mainViewGone()
-
                 Toast.makeText(this@MainActivity, "${t.message}", Toast.LENGTH_LONG).show()
-
+                binding.errorText.visibility = View.VISIBLE
             }
 
         })

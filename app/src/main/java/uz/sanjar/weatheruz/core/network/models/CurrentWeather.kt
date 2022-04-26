@@ -1,4 +1,4 @@
-package uz.sanjar.weather.core.network.models
+package uz.sanjar.weatheruz.core.network.models
 
 data class Cord(
     val lon: Double,

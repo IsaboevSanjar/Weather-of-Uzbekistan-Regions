@@ -1,4 +1,4 @@
-package uz.sanjar.weather.ui
+package uz.sanjar.weatheruz.ui
 
 import android.content.Intent
 import android.net.Uri
@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import android.widget.LinearLayout
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.makeramen.roundedimageview.RoundedImageView
-import uz.sanjar.weather.R
+import uz.sanjar.weatheruz.R
 
 class BottomSheetFragment : BottomSheetDialogFragment() {
     override fun onCreateView(

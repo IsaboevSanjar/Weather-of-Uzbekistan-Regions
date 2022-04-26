@@ -1,4 +1,4 @@
-package uz.sanjar.weather.core.cache;
+package uz.sanjar.weatheruz.core.cache;
 
 import android.content.Context;
 import android.content.SharedPreferences;

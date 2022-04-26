@@ -1,4 +1,4 @@
-package uz.sanjar.weather.core.model;
+package uz.sanjar.weatheruz.core.model;
 
 import android.widget.TextView;
 

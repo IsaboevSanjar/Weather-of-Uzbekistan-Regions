@@ -1,4 +1,4 @@
-package uz.sanjar.weather.core.adapter;
+package uz.sanjar.weatheruz.core.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 import java.util.ArrayList;
 
-import uz.sanjar.weather.R;
+import uz.sanjar.weatheruz.R;
 
 public class SpinnerAdapter extends BaseAdapter {
     private ArrayList<Integer> images = new ArrayList<>();

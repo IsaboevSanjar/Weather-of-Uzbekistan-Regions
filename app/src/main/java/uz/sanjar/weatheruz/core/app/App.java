@@ -1,8 +1,8 @@
-package uz.sanjar.weather.core.app;
+package uz.sanjar.weatheruz.core.app;
 
 import android.app.Application;
 
-import uz.sanjar.weather.core.cache.CityCache;
+import uz.sanjar.weatheruz.core.cache.CityCache;
 
 public class App extends Application {
     @Override

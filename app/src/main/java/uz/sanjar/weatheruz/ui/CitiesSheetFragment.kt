@@ -1,4 +1,4 @@
-package uz.sanjar.weather.ui
+package uz.sanjar.weatheruz.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.Toast
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import uz.sanjar.weather.R
-import uz.sanjar.weather.core.cache.CityCache
+import uz.sanjar.weatheruz.R
+import uz.sanjar.weatheruz.core.cache.CityCache
 
 class CitiesSheetFragment : BottomSheetDialogFragment() {
     override fun onCreateView(

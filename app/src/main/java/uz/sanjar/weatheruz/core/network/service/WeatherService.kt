@@ -1,9 +1,9 @@
-package uz.sanjar.weather.core.network.service
+package uz.sanjar.weatheruz.core.network.service
 
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
-import uz.sanjar.weather.core.network.models.CurrentWeather
+import uz.sanjar.weatheruz.core.network.models.CurrentWeather
 
 interface WeatherService {
 

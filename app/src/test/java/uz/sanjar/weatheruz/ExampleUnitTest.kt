@@ -1,4 +1,4 @@
-package uz.sanjar.weather
+package uz.sanjar.weatheruz
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
